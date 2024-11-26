@@ -1,6 +1,7 @@
 import bodyParser from 'body-parser'
 import express from 'express'
 import cors from 'cors'
+import { productRoute } from './routes/products'
 
 const app = express()
 
@@ -8,9 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(cors())
 
-app.get('/', (_, res) => {
-  return res.json({ ok: true })
-})
+productRoute(app)
 
 const port = process.env.PORT || 5001
 
