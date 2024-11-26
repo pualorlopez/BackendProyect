@@ -1,50 +1,8 @@
-# Typescript Fullstack Project
+Proyect Screenshots:
+![image](https://github.com/user-attachments/assets/3f94640d-1a3d-418b-84c5-f537cdaa36b4)
 
-This is the Bootcamp's Project Monorepo.
+![image](https://github.com/user-attachments/assets/9b899d20-b57f-45a6-b316-dc6b6d3eae18)
 
-## Apps and Packages
+![image](https://github.com/user-attachments/assets/1cc7c63b-7064-4c0f-8b55-d6a72823483e)
 
-- `server`: an [express](https://expressjs.com/) server app
-- `client`: a react [vite](https://vitejs.dev) ts app
-- `@repo/eslint-config`: shared `eslint` configurations
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
-
-## Get Started
-
-### Pre Requisites
-
-1. Install [Docker Desktop](https://docs.docker.com/get-started/get-docker/) and pull [PostgreSQL Image](https://hub.docker.com/_/postgres).
-2. Install [Volta](https://docs.volta.sh/guide/getting-started) and [enable PNPM support](https://docs.volta.sh/advanced/pnpm).
-
-### Install Dependencies
-
-In the root directory open a terminal and install Node.js and PNPM using volta:
-
-```
-volta install node
-```
-
-```
-volta install pnpm
-```
-
-Install the project dependencies:
-
-```
-pnpm install
-```
-
-### Run Applications
-
-This monorepo is configured with [Turborepo](https://turbo.build/repo/docs). You will find the available tasks in [turbo.json](./turbo.json) file. You can run a task like the following. Note that all commands are used with `pnpm exec`, the purpose is to use the local project's Turborepo dependency and not a global one.
-
-```bash
-pnpm exec turbo <task-name>
-
-# Examples
-pnpm exec turbo dev
-pnpm exec turbo build
-pnpm exec turbo start
-```
-
-> Please refer to the official [Turborepo documentation](https://turbo.build/repo/docs/crafting-your-repository/running-tasks) to learn more on running tasks.
+![image](https://github.com/user-attachments/assets/296cd539-7870-4e35-95e0-28ff9d779010)
